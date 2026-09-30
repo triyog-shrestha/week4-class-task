@@ -1,0 +1,11 @@
+Task 1 – Counter
+The form starts with a label showing 0 and an Increment button. The label keeps the current count, while the button lets the user increase it. When the button is clicked, the program reads the number from the label, converts it to an integer, adds 1, and puts the new number back in the label. The displayed result is the updated count. Clicking the button again repeats the same steps, so the count increases one at a time.
+
+Task 2 – Display Text
+The form has a text box, a Display button, and an output label. The text box is where the user types a message. After text is entered and the button is clicked, the program copies the text into the label and clears the text box. The label displays what the user entered, so the result remains visible after the input field is cleared. The user can enter a different message and click the button again to replace the displayed result.
+
+Task 3 – Percentage Calculator
+The form asks for marks obtained and total marks in separate text boxes. The Calculate Percentage button runs the calculation using the values entered in those boxes. The program divides the obtained marks by the total marks and multiplies by 100. The label displays the percentage to two decimal places, for example, 75.00 for 75 percent. It displays an error if either value is zero or the obtained marks are greater than the total. Enter numeric values so the calculation can be performed. After a calculation or error, both input boxes are cleared and can be filled in for another calculation.
+
+Task 4 – Login
+The form has username and password fields, a Login button, and a result label. The username field displays the name as it is typed, while the password is shown as asterisks to hide it on screen. Clicking Login checks whether both fields contain text. If either is empty, the label asks the user to enter both values. Otherwise, the program compares the entries with the fixed username "admin" and password "1234". Matching values produce "Login Successful"; other values produce "Invalid Username or Password". The fields are cleared after each attempt, and the result label shows the outcome of the latest attempt. This is a simple classroom example and does not use a user database.
